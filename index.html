@@ -16,7 +16,7 @@
         }
         #div2
         {
-            border:2px solid black;
+            border:10px solid green;
             width: 30%;
             height: 40px;
             padding: 10px 30px;
@@ -36,7 +36,7 @@
     </style>
 </head>
 <body>
-    <div style = "max-width: 80%; margin: 0 auto 0 auto; border: 5px solid black; padding: 20px 10px">
+    <div style = "max-width: 80%; margin: 0 auto 0 auto; border: 5px solid green; padding: 20px 10px">
         <h2 style = "text-align: center; text-decoration: underline;">SEARCH YOU FAVOURITE MOVIE</h2>
         <input type = "text" id = "pic" placeholder = "Search here.." />
         <button id = "submit" onclick="abc()">Search</button>
@@ -52,7 +52,7 @@
     </div>
     <div id = "demo"></div>
     <script>
-        function BC() {
+        function abc() {
   var name = document.getElementById('pic').value;
   document.getElementById('demo').innerHTML = '';
   var xhttp = new XMLHttpRequest();
